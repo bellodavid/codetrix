@@ -16,7 +16,6 @@ body {
   margin-left: .5rem;
   background: none;
   border: none;
-  border: none;
   color: white;
   cursor: pointer;
 }
@@ -29,7 +28,7 @@ body {
   background-color: hsl(225, 6%, 25%);
 }
 
-editor-title {
+.editor-title {
   display: flex;
   justify-content: space-between;
   background-color: hsl(225, 6%, 25%);
@@ -52,7 +51,7 @@ editor-title {
   height: 100% !important;
 }
 
-editor-container.collapsed .CodeMirror-scroll {
+.editor-container.collapsed .CodeMirror-scroll {
   position: absolute;
   overflow: hidden !important;
 }
