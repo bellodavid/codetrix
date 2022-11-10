@@ -12,6 +12,14 @@ body {
   display: flex;
 }
 
+.expand-collapse-btn {
+  margin-left: .5rem;
+  background: none;
+  border: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
 .editor-container {
   flex-grow: 1;
   flex-basis: 0;
@@ -42,4 +50,9 @@ editor-title {
 }
 .CodeMirror {
   height: 100% !important;
+}
+
+editor-container.collapsed .CodeMirror-scroll {
+  position: absolute;
+  overflow: hidden !important;
 }
