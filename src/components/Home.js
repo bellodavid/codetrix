@@ -53,7 +53,7 @@ function Home() {
 
   return (
     <div
-      style={{ backgroundColor: "#2a283e", minHeight: "100vh", height: "auto" }}
+      style={{ backgroundColor: "black", minHeight: "100vh", height: "auto" }}
     >
       <Container style={wrapper}>
         <img src={sh1} alt="fig1" style={shape1} className="shape" />
