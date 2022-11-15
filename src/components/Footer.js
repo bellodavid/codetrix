@@ -1,15 +1,19 @@
-import React from 'react'
+import React from "react";
+import { Container } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "../App.css";
 
 function Footer() {
-var date = new Date();
-var year = date.getFullYear();
-
+  var date = new Date();
+  var year = date.getFullYear();
   return (
-    <div style={{display: "flex", justifyContent: 'center',   
-     backgroundColor: "black", zIndex: 1}}>
-        <div><h2 style={{color:" rgb(246, 225, 188)", fontSize: 15}}> Copywrite  © {year} | David Bello</h2></div>
+    <div>
+      <Container fluid className="footer">
+        Copywrite © {year} | Made with <i className="far fa-heart"></i>{" "}
+        Soumyajit
+      </Container>
     </div>
-  )
+  );
 }
 
-export default Footer
+export default Footer;
