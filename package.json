@@ -1,20 +1,24 @@
 {
-  "name": "codepen-clone",
+  "name": "online-code-editor",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.30",
-    "@fortawesome/free-solid-svg-icons": "^5.14.0",
-    "@fortawesome/react-fontawesome": "^0.1.11",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
-    "codemirror": "^5.57.0",
-    "react": "^16.13.1",
+    "@github/markdown-toolbar-element": "^1.4.0",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.7.2",
+    "bootstrap": "^4.6.0",
+    "codemirror": "^5.59.3",
+    "js-file-download": "^0.4.12",
+    "react": "^17.0.1",
+    "react-autosize-textarea": "^7.1.0",
+    "react-bootstrap": "^1.5.0",
     "react-codemirror2": "^7.2.1",
-    "react-dom": "^16.13.1",
-    "react-router-dom": "^6.4.3",
-    "react-scripts": "^5.0.1"
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.2",
+    "remarkable": "^2.0.1",
+    "web-vitals": "^1.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -23,7 +27,10 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": {
     "production": [
