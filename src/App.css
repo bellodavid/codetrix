@@ -3,6 +3,7 @@
   outline: none !important;
   box-shadow: none !important;
 }
+
 pre {
   padding: 10px;
   overflow: auto;
@@ -40,6 +41,8 @@ pre {
   justify-content: center;
 }
 
+
+
 .output-pane {
   left: 0;
   border: 0px solid;
@@ -60,3 +63,12 @@ pre {
   line-height: 2.5;
   justify-content: center !important;
 }
+.big_container{
+  background-color: #0f0e13;  
+  min-height: 100vh;
+  height: auto;
+width: 100%;
+  background-image: 
+   radial-gradient(at 0% 100%, hsla(253,16%,7%,1) 0, transparent 50%), 
+   radial-gradient(at 50% 0%, hsla(225,39%,25%,1) 0, transparent 50%);
+  }

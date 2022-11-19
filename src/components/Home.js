@@ -52,9 +52,7 @@ function Home() {
   };
 
   return (
-    <div
-      style={{ backgroundColor: "black", minHeight: "100vh", height: "auto" }}
-    >
+    <div className="big_container"    >
       <Container style={wrapper}>
         <img src={sh1} alt="fig1" style={shape1} className="shape" />
         <img src={sh2} alt="fig2" style={shape2} className="shape" />
