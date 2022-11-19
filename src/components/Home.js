@@ -47,7 +47,7 @@ function Home() {
   };
 
   const btnStyle = {
-    backgroundColor: "#5c4389",
+    backgroundColor: "#FF725E",
     border: 0,
   };
 
