@@ -1,14 +1,18 @@
 <div align="center">
 
 # Editor.io
-## https://codetrix.vercel.com/
+## https://codetrix.netlify.com/
 
 </div>
 
 ## Online code editor for HTML, CSS and Javascript to discover frontend code
 
 <div align="center">
-  <img alt="Demo" src="./src/Assets/web.gif"/>
+  <img alt="Demo" src="./src/Assets/landingPage.png"/>
+</div>
+
+<div align="center">
+  <img alt="Demo" src="./src/Assets/webEditor.png"/>
 </div>
 
 ### Features:
@@ -21,8 +25,9 @@
 
 ## Online Markdown editor for generating Readme Files
 
+
 <div align="center">
-  <img alt="Demo" src="./src/Assets/markdown.gif"/>
+  <img alt="Demo" src="./src/Assets/markdown.png"/>
 </div>
 
 ## Features
