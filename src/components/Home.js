@@ -5,7 +5,7 @@ import sh1 from "../Assets/shape-1.svg";
 import sh2 from "../Assets/shape-2.svg";
 import sh3 from "../Assets/shape-3.svg";
 import sh6 from "../Assets/shape-6.svg";
-import homeImg from "../Assets/hero-img.png";
+import homeImg from "../Assets/animate.svg";
 import { Link } from "react-router-dom";
 import "../App.css";
 import "bootstrap/dist/css/bootstrap.min.css";

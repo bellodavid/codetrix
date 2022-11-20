@@ -13,7 +13,7 @@ pre {
 }
 
 .btn-primary:hover {
-  background-color: rgb(127, 62, 187) !important;
+  background-color: rgb(240, 193, 158) !important;
 }
 
 @media (max-width: 768px) {
