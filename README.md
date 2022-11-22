@@ -1,7 +1,7 @@
 <div align="center">
 
 # Editor.io
-## https://codetrix.netlify.com/
+## https://codetrix.netlify.app/
 
 </div>
 
